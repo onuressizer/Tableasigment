@@ -1,0 +1,73 @@
+table{width: 42rem
+    ;height: 15rem
+;}
+table thead{background-color: black;
+color: white;}
+
+table tfoot{ background-color: black;
+color: white;}
+
+
+
+
+table tfoot{
+    font-size: 1.2rem;
+}
+table thead{
+    font-size: 1.2rem;
+}
+tfoot.son td:nth-child(1){
+    text-align: right;
+}
+tfoot.son td:nth-child(2){
+    text-align: center;
+}
+
+tbody td:nth-child(3){text-align: center;}
+
+tbody td:nth-child(4){
+
+    text-align: right;
+}
+
+tbody td:nth-child(5){
+
+    text-align: right;
+}
+
+tbody:nth-child(even){
+    background-color: blue;
+}
+tbody:nth-child(odd){
+    background-color: rgb(94, 94, 202);}
+
+
+button{margin-left: 12.5rem;
+    
+
+background-color: palevioletred;
+color: white;
+font-size: 1.rem;}
+
+button.bir::before{
+   font:var(--fa-font-solid);
+
+    content:"\f07a"
+    ; font-size: 25px;
+}
+button.iki::before{
+    font:var(--fa-font-solid);
+
+    content:"\f09d"
+    ; font-size: 25px;
+}
+
+
+button:hover{
+    background-color: blueviolet;
+    color: rgb(199, 159, 236);
+}
+tbody:hover{
+    background-color: whitesmoke;
+    color: rgba(2, 0, 0, 0.979);
+}
